@@ -1,0 +1,121 @@
+/* =================================================================== */
+/* MATCH CARD STYLES                               */
+/* =================================================================== */
+
+/* --- Main Card Wrapper --- */
+.match-card {
+    background-color: #495057; /* Màu nền xám tối, sáng hơn header một chút */
+    color: #f8f9fa; /* Màu chữ sáng */
+    padding: 1rem;
+    border-radius: 0.5rem; /* Bo góc nhiều hơn một chút */
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Khoảng cách giữa các phần tử bên trong card */
+    transition: background-color 0.2s ease-in-out;
+    border: 1px solid #6c757d;
+}
+
+/* Hiệu ứng khi di chuột qua card kết quả (có thể click) */
+.match-card.is-clickable:hover {
+    background-color: #5a6268;
+    cursor: pointer;
+}
+
+/* --- Round Header --- */
+.round-header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+}
+
+/* --- Status Section (Bên trái: Ngày/Giờ/Trạng thái) --- */
+.match-card-status {
+    flex-shrink: 0;
+    text-align: center;
+    width: 70px;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    opacity: 0.8;
+}
+
+/* --- Teams/Players Section (Ở giữa, chiếm nhiều không gian nhất) --- */
+.match-card-teams {
+    flex-grow: 1; /* Quan trọng: cho phép phần này giãn ra */
+}
+
+.team-row {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0;
+}
+
+/* Dành cho logo cơ thủ sau này */
+.team-logo {
+    width: 28px;
+    height: 28px;
+    margin-right: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.1); /* Placeholder */
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.team-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Hiển thị điểm mục tiêu của cơ thủ */
+.team-name .target-score {
+    font-size: 0.85rem;
+    color: #ced4da;
+    margin-left: 8px;
+    font-weight: 400;
+}
+
+/* --- Score Section (Bên phải) --- */
+.match-card-score {
+    flex-shrink: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 40px;
+}
+
+/* Style cho người thắng cuộc */
+.team-row.winner .team-name,
+.match-card-score .score.winner {
+    color: #ffc107; /* Màu vàng để làm nổi bật người thắng */
+    font-weight: 700;
+}
+
+/* --- Actions/Icons section (ngoài cùng bên phải) --- */
+.match-card-actions {
+    font-size: 1.5rem;
+    color: #adb5bd;
+    flex-shrink: 0;
+}
+
+/* --- Phần chi tiết kết quả (có thể thu gọn) --- */
+.match-details-card {
+    background-color: #343a40;
+    color: #f1f1f1;
+    border-radius: 0.5rem;
+    margin-top: -10px; /* Hơi chồng lên card chính một chút */
+    padding: 1.25rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 1px solid #6c757d;
+    border-top: none;
+    font-size: 0.9rem;
+}
+.match-details-card strong {
+    color: #ffc107;
+}

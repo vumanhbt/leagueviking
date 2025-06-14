@@ -1,0 +1,204 @@
+[04-Jun-2025 04:10:03 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 135
+[04-Jun-2025 04:10:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Array' in 'ORDER BY' in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:11:34 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 135
+[04-Jun-2025 04:11:34 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Array' in 'ORDER BY' in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:12:37 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'player_tier_label, current_target_score DESC, player_name ASC' at line 1 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:13:35 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'player_tier_label DESC, current_target_score DESC, player_name ASC' at line 1 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:13:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'player_tier_label DESC' at line 1 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:18:37 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 135
+[04-Jun-2025 04:18:37 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Array' in 'ORDER BY' in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:21:57 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 135
+[04-Jun-2025 04:21:57 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' current_target_score ASC, player_name ASC' at line 1 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:26:30 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' player_tier_label LIKE '%+%' THEN 1 ELSE 2 END ASC, current_target_score ASC...' at line 1 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:26:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' player_tier_label LIKE '%+%' THEN 1 ELSE 2 END, current_target_score ASC, pl...' at line 1 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:29:08 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'is_plus' in 'ORDER BY' in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:31:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC LIKE '%+' THEN 1 ELSE 0 END, current_target_score DESC, player_name ASC' at line 1 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:43:54 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CASE WHEN player_tier_label LIKE '%+' THEN 1 ELSE 2 END;, current_target_scor...' at line 1 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 04:44:24 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' current_target_score DESC, player_name ASC' at line 1 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:136
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(136): mysqli->query()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 136
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[04-Jun-2025 05:26:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 11:33:41 UTC] PHP Parse error:  Unmatched '}' in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 61
+[05-Jun-2025 11:33:45 UTC] PHP Parse error:  Unmatched '}' in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 61
+[05-Jun-2025 11:34:15 UTC] PHP Parse error:  Unmatched '}' in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 61
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:36:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 18:42:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[05-Jun-2025 11:47:41 UTC] PHP Parse error:  syntax error, unexpected token "else" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 131
+[05-Jun-2025 18:50:24 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`database2vikingleague`.`matches`, CONSTRAINT `matches_ibfk_2` FOREIGN KEY (`player1_id`) REFERENCES `players` (`player_id`)) in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:103
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(103): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 103
+[05-Jun-2025 18:51:52 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`database2vikingleague`.`matches`, CONSTRAINT `matches_ibfk_2` FOREIGN KEY (`player1_id`) REFERENCES `players` (`player_id`)) in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php:103
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(103): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php on line 103
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 04:13:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[06-Jun-2025 19:05:59 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 31
+[06-Jun-2025 19:06:02 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 31
+[06-Jun-2025 19:06:24 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 31
+[06-Jun-2025 19:59:55 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 31
+[06-Jun-2025 20:00:07 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 31
+[06-Jun-2025 20:02:09 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 112
+[06-Jun-2025 20:04:13 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 31
+[06-Jun-2025 20:04:14 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 31
+[06-Jun-2025 20:04:17 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 31
+[06-Jun-2025 20:08:40 UTC] PHP Parse error:  Unclosed '{' on line 109 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 261
+[07-Jun-2025 03:19:25 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function calculateMatchResult() in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 72
+[07-Jun-2025 03:20:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function calculateMatchResult() in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 72
+[07-Jun-2025 03:21:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function calculateMatchResult() in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 72
+[07-Jun-2025 03:24:27 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function calculateMatchResult() in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/results_entry.php on line 72
+[10-Jun-2025 11:33:02 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "action" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 103
+[10-Jun-2025 11:33:11 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "action" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 103
+[10-Jun-2025 11:33:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "action" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 103
+[10-Jun-2025 11:34:51 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "action" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 103
+[10-Jun-2025 04:36:29 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 399
+[10-Jun-2025 11:36:44 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "action" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 103
+[10-Jun-2025 11:47:42 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "action" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 103
+[10-Jun-2025 11:47:50 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "action" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 103
+[10-Jun-2025 11:48:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "action" in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/matches_manage.php on line 103
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 02:30:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 17 in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 99
+[12-Jun-2025 03:00:49 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php:444
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php(444): mysqli_stmt->bind_param()
+#1 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/admin/players_manage.php(67): addPlayerToExistingSchedule()
+#2 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/includes/functions.php on line 444

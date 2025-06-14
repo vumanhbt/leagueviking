@@ -1,0 +1,85 @@
+/* File: assets/css/style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header h1 {
+    color: #2c3e50; /* Màu xanh đậm một chút */
+}
+
+.nav-tabs .nav-link {
+    color: #3498db; /* Màu xanh dương cho link tab */
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff !important;
+    background-color: #3498db !important; /* Nền cho tab active */
+    border-color: #3498db #3498db #fff !important;
+}
+
+
+
+.match-card {
+    padding: 8px;
+}
+/* Thêm các style tùy chỉnh của bạn ở đây */
+
+/* Áp dụng cho màn hình có chiều rộng dưới 768px */
+@media (max-width: 767.98px) {
+    .nav-tabs.nav-fill {
+        /* 1. Sử dụng Flexbox và cho phép các item xuống dòng */
+        display: flex;
+        flex-wrap: wrap;
+
+        /* 2. Canh giữa các tab (đây là "chìa khóa" để tab lẻ tự vào giữa) */
+        justify-content: center;
+
+        /* 3. Tạo khoảng cách giữa các tab */
+        gap: 8px;
+    }
+
+    .nav-tabs.nav-fill .nav-link {
+        /* 4. Thiết lập kích thước cho mỗi tab */
+        /* flex-basis để mỗi tab chiếm khoảng 45-48% chiều rộng, 
+           cùng với flex-grow để chúng tự giãn ra bằng nhau.
+           Điều này đảm bảo mỗi hàng chỉ có tối đa 2 tab. */
+        flex-basis: 45%;
+        flex-grow: 1;
+        
+        /* Căn giữa chữ bên trong mỗi tab */
+        text-align: center;
+    }
+
+    /* Ghi đè lại style của Bootstrap để tab active trông đẹp hơn trong bố cục mới */
+    .nav-tabs .nav-link.active {
+        border-bottom-width: 1px;
+    }
+    th {
+        font-size: 12px !important;
+    }
+    td {
+        font-size: 12px !important;
+    }
+    .round-header {
+        font-size: 15px !important;
+        text-transform: uppercase !important;
+    }
+    .match-card {
+        padding: 10px 0 !important;
+    }
+    .team-name {
+        font-size: 13px !important;
+    }
+    .match-card-status {
+        font-size: 13px !important;
+        width: 18% !important;
+    }
+    .match-card-score {
+        font-size: 13px !important;
+    }
+    .match-details-card {
+        font-size: 12px !important;
+    }
+}

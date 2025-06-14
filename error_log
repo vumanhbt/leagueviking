@@ -1,0 +1,8 @@
+[12-Jun-2025 03:37:39 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "endif", expecting end of file in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/partials/tabs_content/lichthidau_content.php on line 189
+[12-Jun-2025 03:38:27 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "endif", expecting end of file in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/partials/tabs_content/lichthidau_content.php on line 189
+[12-Jun-2025 13:26:38 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $p1_scores_str in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/partials/tabs_content/ketqua_content.php on line 70
+[12-Jun-2025 13:26:38 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: implode(): If argument #1 ($separator) is of type string, argument #2 ($array) must be of type array, null given in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/partials/tabs_content/ketqua_content.php:70
+Stack trace:
+#0 /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/index.php(44): include()
+#1 {main}
+  thrown in /home/m9ya4p6teevr/public_html/leaguegmn.2vikingbilliards.com/partials/tabs_content/ketqua_content.php on line 70
